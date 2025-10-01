@@ -8,7 +8,7 @@
 
 #inicio{
     height: 100vh;
-    background: url(/assets/img/background.png);
+    background: url(assets/img/background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -130,4 +130,5 @@ background: rgba(255, 255, 255, 0.295);
   background-color: #D4AF37; 
   margin: 5px auto 0 auto;
 }
+
 
