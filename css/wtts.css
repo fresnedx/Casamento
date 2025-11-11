@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+#wtts{
+    height: 70vh;
+    font-family: "Inria Serif";
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#wtts .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+#wtts .linha_presenca{
+    width: 150px;
+    height: 2px;
+    background-color: #D4AF37;
+}
+
+.box_paragrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 2rem;
+    background-color: #D4AF37;
+}
+
+.interacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3rem;
+    gap: 45px;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left a{
+    background-color: #68B56C;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+
+.rigth img{
+    width: 110px;
+    height: 110px;
+}
+
+.cima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

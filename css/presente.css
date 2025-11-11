@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#presentes{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Inria Serif';
+}
+
+#presentes .linha_presente{
+    width: 170px;
+    height: 2px;
+    background-color: #D4AF37;
+}
+
+#presentes .direita{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 460px;
+    height: 250px;
+    background-color: #2F4F4F;
+    border-radius: 20px;
+}
+
+#presentes .direita img{
+    width: 200px;
+    height: 200px;
+    margin-left: 1rem;
+}
+
+.linha_box_presente{
+    width: 350px;
+    height: 2px;
+    background-color: #D4AF37;
+    margin-top: 1.3rem;
+}
+
+.esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 250px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20%;
+}
+
+.lados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: center;
+    margin-top: 4rem;
+    gap: 10px;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 40px;
+}
+
+.baixo a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #D4AF37;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.baixo p{
+    font-size: 13px;
+    text-align: center;
+    color: #333333;
+}
+
+

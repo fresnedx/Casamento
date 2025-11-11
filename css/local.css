@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#local{
+    height: 100vh;
+    font-family: 'Inria Serif';
+}
+
+#local .high{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+#local .linha{
+    width: 300px;
+    height: 2px;
+    background-color: #D4AF37; /* dourado */
+}
+
+
+
+#local .carrosel img{
+    width: 270px;
+    height: 200px;
+}
+
+.carrosel {
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  perspective: 1500px; /* perspectiva 3D */
+  overflow: visible; /* importante para que as laterais apareçam corretamente */
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.slide {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  transition: transform 1s ease, opacity 0.3s ease;
+  transform-origin: center center;
+  opacity: 0.5;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide.active {
+  transform: translateX(0) translateZ(100px) rotateY(0deg);
+  opacity: 1;
+  z-index: 4;
+}
+
+.slide.prev {
+  transform: translateX(-150px) translateZ(0px) rotateY(30deg);
+  opacity: 0.3;
+  z-index: 2;
+}
+
+.slide.next {
+  transform: translateX(150px) translateZ(0px) rotateY(-30deg);
+  opacity: 0.3;
+  z-index: 2;
+}
+
+#local .box{
+    margin-top: 2rem;
+    width: 100%;
+    height: 300px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+#local .box .linha_box{
+    width: 400px;
+    height: 2px;
+    background-color: #ffffff; 
+    margin-top: 8px;
+}
+
+#local .topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#local .topo img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+#local .abaixo a img{
+    width: 10px;
+    height: 10px;
+}
+
+#local .abaixo a{
+    padding: 10px;
+    text-decoration: none;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#local .abaixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 1rem;
+}
+
+
+
+
